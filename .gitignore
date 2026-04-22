@@ -1,0 +1,26 @@
+# Jupyter
+.ipynb_checkpoints/
+checkpoint/
+
+# Spark/PySpark
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.csv
+*.json
+*.tgz
+spark-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
